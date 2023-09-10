@@ -1,0 +1,54 @@
+{
+  "name": "Dice",
+  "icons": {
+    "small": "/images/163x238_dc.png",
+    "big": "/images/312x312_dc_x1.png"
+  },
+  "description": "Play Dice online at the safest no deposit blockchain casino %s. All games are on-chain and secured by fair and tamper-proof algorithm signidice.",
+  "text": "lorem ipsum",
+  "gameSpecURL": "http://",
+  "optimizedIcons": {
+    "small": {
+      "1x": [
+        "/images/163x238_dc_x1.webp",
+        "/images/163x238_dc_x1.png"
+      ],
+      "2x": [
+        "/images/163x238_dc_x3.webp",
+        "/images/163x238_dc_x3.png"
+      ]
+    },
+    "big": {
+      "1x": [
+        "/images/312x312_dc_x1.webp",
+        "/images/312x312_dc_x1.png"
+      ],
+      "2x": [
+        "/images/312x312_dc_x3.webp",
+        "/images/312x312_dc_x3.png"
+      ]
+    }
+  },
+  "supports": {
+    "demoMode": true
+  },
+  "dependencies": {
+    "webgl": true
+  },
+  "explorerSpec": {
+    "mappings": {},
+    "transformers": [
+      {
+        "eventName": "spin",
+        "eventType": 4,
+        "length": 1,
+        "fields": [
+          {
+            "name": "theNumber",
+            "length": 1
+          }
+        ]
+      }
+    ]
+  }
+}
